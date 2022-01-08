@@ -1,8 +1,8 @@
-from .script_creation_path import script_path
+from .script_creation_path import script_path,api_url
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
-exe_api="""response=requests.get("http://127.0.0.1:8000/api/execute_tc/"""
+exe_api=f'response=requests.get({api_url}'
 resprint="print (response)"
 
 @csrf_exempt

@@ -5,6 +5,16 @@ from django.http import HttpResponse
 from .get_db_conn_details import db_conn
 from .tc_capture_handler import tc_capture_result
 def get_conn_dtl(request,id):
+    global src_conn_name
+    global tgt_conn_name
+    global src_query
+    global tgt_query
+    global res_type
+    global pk_column
+    global src_conn_name
+    global src_conn_dtl
+    global tgt_conn_name
+    global tgt_conn_dtl
     #print(id)
     sqlqry=f"SELECT source_query,target_query,source_connection_name, target_connection_name,result_type,pk_column,id FROM raindrop_testcases where id={id}"
     for p in testcases.objects.raw(sqlqry):
