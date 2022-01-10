@@ -46,6 +46,7 @@ class tcresultview(models.Model):
     source_result =models.CharField(max_length=500)
     target_result =models.CharField(max_length=500)
     result_desc =models.CharField(max_length=500)
+    test_status=models.CharField(max_length=10)
     change_date=models.DateTimeField()
     class Meta:
         managed = False
