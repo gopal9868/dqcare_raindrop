@@ -1,2 +1,4 @@
 # dqcare_raindrop
-DQcare  Raindrop (Backend ) repo
+This Repository hosts Python (Django REST framework) code   for  Data Quality (DQcare) backend.
+
+
