@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o+89vol=!qf0c7lk8etk(u#f!xp_n+fj(+at+fg3t-#o)(#93d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-54-161-232-34.compute-1.amazonaws.com','127.0.0.1']
+ALLOWED_HOSTS = ['ec2-xx-xx-xx-xx.compute-1.amazonaws.com','127.0.0.1']
 
 
 # Application definition
@@ -96,9 +96,9 @@ DATABASES = {
  'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'bubble',
-        'USER':'admin',
-        'PASSWORD':'t5c169oeaBqkSf2lllJX',
-        'HOST':'bubble.cct4idlisjbs.us-east-1.rds.amazonaws.com',
+        'USER':'adminxxxx',
+        'PASSWORD':'xxxxxxxxxxxxxx',
+        'HOST':'bubble.xxxxxxx.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
